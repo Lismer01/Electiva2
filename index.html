@@ -1,11 +1,108 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <title>Hola Mundo</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hola Mundo</title>
+
+<style>
+
+body{
+    margin:0;
+    font-family:Segoe UI, sans-serif;
+    background:#0f172a;
+    color:white;
+}
+
+header{
+    text-align:center;
+    padding:120px 20px;
+    background:linear-gradient(135deg,#2563eb,#7c3aed);
+}
+
+header h1{
+    font-size:60px;
+    margin-bottom:10px;
+}
+
+header p{
+    font-size:20px;
+}
+
+section{
+    max-width:1000px;
+    margin:auto;
+    padding:60px 20px;
+}
+
+.tarjetas{
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+.tarjeta{
+    background:white;
+    color:#333;
+    width:280px;
+    padding:25px;
+    border-radius:12px;
+    text-align:center;
+}
+
+.tarjeta h3{
+    color:#2563eb;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    background:#020617;
+}
+
+</style>
+
 </head>
 <body>
+
+<header>
     <h1>Hola Mundo</h1>
-    <p>Página web publicada con GitHub Pages.</p>
+    <p>Mi primera página web publicada desde GitHub Pages.</p>
+</header>
+
+<section>
+
+    <h2 style="text-align:center;">Sobre esta práctica</h2>
+
+    <p style="text-align:center;">
+        Esta página fue creada como parte de una práctica de publicación web utilizando GitHub y GitHub Pages.
+    </p>
+
+    <div class="tarjetas">
+
+        <div class="tarjeta">
+            <h3>HTML</h3>
+            <p>Se utilizó HTML para crear la estructura de la página.</p>
+        </div>
+
+        <div class="tarjeta">
+            <h3>CSS</h3>
+            <p>Se aplicaron estilos para mejorar la apariencia visual.</p>
+        </div>
+
+        <div class="tarjeta">
+            <h3>GitHub Pages</h3>
+            <p>La publicación se realiza automáticamente desde el repositorio.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<footer>
+    <p>Práctica 3</p>
+</footer>
+
 </body>
 </html>
